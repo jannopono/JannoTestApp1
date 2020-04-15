@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JannoTestApp1.Android", "Ja
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JannoTestApp1.iOS", "JannoTestApp1\JannoTestApp1.iOS\JannoTestApp1.iOS.csproj", "{2BA0BC3B-8FB0-4CF3-8FEF-5D8B7A43545A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JannoTestApp1", "JannoTestApp1\JannoTestApp1\JannoTestApp1.csproj", "{4D286104-40F0-4369-A23D-846111B8D331}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JannoTestApp1", "JannoTestApp1\JannoTestApp1\JannoTestApp1.csproj", "{4D286104-40F0-4369-A23D-846111B8D331}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

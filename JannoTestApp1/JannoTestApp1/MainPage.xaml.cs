@@ -17,5 +17,10 @@ namespace JannoTestApp1
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Click Me", "Click me", "OK");
+        }
     }
 }

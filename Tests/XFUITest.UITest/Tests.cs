@@ -28,10 +28,14 @@ namespace XFUITest.UITest
         [Test]
         public void WelcomeTextIsDisplayed()
         {
-            AppResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin.Forms!"));
-            app.Screenshot("Welcome screen.");
-
-            Assert.IsTrue(results.Any());
+            AppResult[] homePageExists = app.WaitForElement(c => c.Marked("MainPage"));
+            Assert.IsTrue(homePageExists.Any());
         }
+
+        //public void TestButton()
+        //{
+        //    AppResult[] btn = SetupHooks.App.WaitForElement(c => c.Marked("btnClickMe"));
+        //    Assert.IsTrue(btn.Any());
+        //}
     }
 }

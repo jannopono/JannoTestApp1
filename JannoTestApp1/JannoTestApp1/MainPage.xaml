@@ -14,6 +14,7 @@
            VerticalOptions="CenterAndExpand" />
 
         <Button AutomationId="btnClickMe" Text="Click Me"/>
+        <Entry AutomationId="textBox"/>
     </StackLayout>
 
 </ContentPage>

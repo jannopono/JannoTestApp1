@@ -41,13 +41,21 @@ namespace XFUITest.UITest
             //SetupHooks.App.Screenshot("Welcome Screen");
 
         }
-
+        [Test]
         public void TestButtons()
         {
             SetupHooks.App.Tap(c => c.Marked("btnClickMe"));
         }
 
-	
-		
-	}
+        [Test]
+        public void TestWriteToTextBox()
+        {
+            string whateverYourText = "Xamarin UI Test";
+            SetupHooks.App.EnterText(c => c.Marked("textBox"), whateverYourText);
+
+        }
+
+
+
+    }
 }

@@ -37,7 +37,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Xamarin.UITest">
-      <Version>2.2.6</Version>
+      <Version>3.0.7</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="AppTests.cs" />
     <Compile Include="SetupHooks.cs" />
-    <Compile Include="Tests.cs" />
     <Compile Include="AppInitializer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

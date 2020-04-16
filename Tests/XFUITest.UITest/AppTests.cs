@@ -25,21 +25,29 @@ namespace XFUITest.UITest
             AppInitializer.StartApp(SetupHooks.Platform, true);
         }
 
+        // test cases begin here...
         [Test]
         public void WelcomeTextIsDisplayed()
         {
             AppResult[] homePageExists = SetupHooks.App.WaitForElement(c => c.Marked("MainPage"));
             Assert.IsTrue(homePageExists.Any());
 
+            
+
             //AppResult[] welcomeLabelExists = SetupHooks.App.WaitForElement(c => c.Marked("lblWelcome"));
             //Assert.IsTrue(welcomeLabelExists.Any());
 
             //welcomeLabelExists = SetupHooks.App.WaitForElement(c => c.Text("Hey there, Welcome!"));
             //SetupHooks.App.Screenshot("Welcome Screen");
-            
+
         }
 
-	// test cases begin here...
+        public void TestButtons()
+        {
+            SetupHooks.App.Tap(c => c.Marked("btnClickMe"));
+        }
+
+	
 		
 	}
 }

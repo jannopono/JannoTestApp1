@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             AutomationId="MainPage"
              x:Class="JannoTestApp1.MainPage">
 
     <StackLayout>
@@ -12,7 +13,7 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 
-        <!--<Button AutomationId="btnClickMe" Text="Click Me" Clicked="Button_Clicked"/>-->
+        <Button AutomationId="btnClickMe" Text="Click Me"/>
     </StackLayout>
 
 </ContentPage>
